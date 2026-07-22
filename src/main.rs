@@ -1,10 +1,5 @@
-mod sa;
-mod ub;
-mod sc;
-mod training;
-
-use training::give_model_data;
+mod dinov3;
 
 fn main() {
-    give_model_data();
+    println!("DINOv3 project");
 }
